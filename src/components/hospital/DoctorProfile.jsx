@@ -26,7 +26,7 @@ export default function DoctorProfile() {
               />
               <div className="card-body bg-primary text-white">
                 <h5 className="card-title fw-bold mb-1">Dr. Aditya B. Pawar</h5>
-                <p className="mb-2">MBBS, MS (General Surgery)</p>
+                <p className="mb-2">MS GENERAL SURGEON & ANORECTAL LESOR SURGEON MUMBAI</p>
                 <div className="d-flex">
                   {[...Array(5)].map((_, idx) => (
                     <Star key={idx} className="text-warning me-1" />
@@ -58,7 +58,7 @@ export default function DoctorProfile() {
                       <h5 className="fw-bold mb-0">Qualifications</h5>
                     </div>
                     <ul className="mb-0">
-                      <li>MBBS from Recognized Medical College</li>
+                      <li>MS GENERAL SURGEON & ANORECTAL LESOR SURGEON MUMBAI</li>
                       <li>MS in General Surgery</li>
                       <li>Specialized Training in Anorectal Surgery</li>
                     </ul>
