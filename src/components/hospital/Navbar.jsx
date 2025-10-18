@@ -51,7 +51,7 @@ export default function Navbar() {
               {item.label}
             </button>
           ))}
-          <a href="tel:+919876543210" className="nav-link btn-call">
+          <a href="tel:+919765009785" className="nav-link btn-call">
             <Phone size={16} className="mr-1" />
             Call
           </a>
@@ -78,7 +78,7 @@ export default function Navbar() {
               {item.label}
             </button>
           ))}
-          <a href="tel:+919876543210" className="mobile-nav-link btn-call">
+          <a href="tel:+919765009785" className="mobile-nav-link btn-call">
             <Phone size={16} className="mr-1" />
             Call
           </a>

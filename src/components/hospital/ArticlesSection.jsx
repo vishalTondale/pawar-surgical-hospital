@@ -118,7 +118,7 @@ export default function ArticlesSection() {
             <p className="mb-4">
               Follow our articles for valuable health tips, medical information, and updates about our hospital services. Your health education is our priority.
             </p>
-            <a href="tel:+919876543210" className="btn btn-light text-primary fw-bold px-4 py-2">
+            <a href="tel:+919765009785" className="btn btn-light text-primary fw-bold px-4 py-2">
               Contact for More Information
             </a>
           </div>

@@ -1,10 +1,12 @@
 import React from "react";
+import abp from "../../assets/abp.jpg";
+import Saugata from "../../assets/saugata.jpg";
 import { Users, Stethoscope, Heart, Activity } from "lucide-react";
 
 export default function TeamSection() {
   const team = [
-    { name: "Dr. Aditya B. Pawar", role: "Chief Surgeon", specialization: "General & Anorectal Surgery", image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400" },
-    { name: "Mr. Saugata", role: "Medical Assistant", specialization: "Patient Care", image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400" }
+    { name: "Dr. Aditya B. Pawar", role: "Chief Surgeon", specialization: "General & Anorectal Surgery", image: abp },
+    { name: "Mr. Saugata", role: "Medical Assistant", specialization: "Patient Care", image: Saugata }
   ];
 
   return (

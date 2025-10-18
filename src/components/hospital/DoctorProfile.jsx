@@ -1,6 +1,6 @@
 import React from "react";
 import { Award, GraduationCap, Stethoscope, Star } from "lucide-react";
-
+import abp from "../../assets/abp.jpg";
 export default function DoctorProfile() {
   return (
     <section className="py-5" style={{ background: "linear-gradient(to right, #e0f2ff, #ffffff)" }}>
@@ -20,7 +20,7 @@ export default function DoctorProfile() {
           <div className="col-lg-4">
             <div className="card border-0 shadow-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600"
+                src={abp}
                 className="card-img-top"
                 alt="Dr. Aditya B. Pawar"
               />
