@@ -1,5 +1,6 @@
 import React from "react";
 import { Phone, MapPin, Clock, ChevronRight } from "lucide-react";
+import lab  from "../../assets/lab.jpg";
 
 export default function HeroSection() {
   return (
@@ -86,7 +87,7 @@ export default function HeroSection() {
           <div className="col-md-6 position-relative">
             <div className="rounded-4 overflow-hidden shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800"
+                src={lab}
                 alt="Hospital Building"
                 className="img-fluid"
               />
