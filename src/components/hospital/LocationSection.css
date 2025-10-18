@@ -1,0 +1,20 @@
+.location-section .map-card {
+  position: relative;
+  min-height: 350px;
+}
+
+.location-section .map-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(37, 99, 235, 0.85);
+  color: #fff;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.location-section .map-overlay a {
+  color: #fff;
+  text-decoration: none;
+}

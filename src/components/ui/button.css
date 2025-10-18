@@ -1,0 +1,21 @@
+.custom-btn {
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #0077ff;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #005ecb;
+  transform: translateY(-2px);
+}
+
+.custom-btn:active {
+  transform: translateY(0);
+}
